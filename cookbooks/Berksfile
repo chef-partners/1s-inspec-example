@@ -1,0 +1,5 @@
+source 'https://supermarket.chef.io'
+cookbook "audit_wrapper", path: "./audit_wrapper"
+cookbook "sshd"
+cookbook "chef_client_wrapper", path: "./chef_client_wrapper"
+cookbook "pwd_policy", path: "./pwd_policy"
